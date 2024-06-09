@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Professional Blog</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="latest-posts">
+            <h2>Latest Posts</h2>
+            <ul id="posts-list"></ul>
+        </section>
+        <section id="add-post">
+            <h2>Add a New Post</h2>
+            <form id="add-post-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required></textarea>
+                <button type="submit">Add Post</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Professional Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
