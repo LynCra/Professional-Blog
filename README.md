@@ -6,4 +6,4 @@ This is a simple professional blog application built with Express, Body-Parser, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/professional_blog.git
+   git clone https://github.com/LynCra/professional_blog.git
